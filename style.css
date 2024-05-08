@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border: 10px solid violet;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: darkcyan;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#todoInput{
+    height: 24px;
+    width: 45vh;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+#addTask{
+    background-color: blue;
+    width: 30px;
+    height: 25px;
+}
+#todoList{
+    margin: 15px;
+}
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 50vw;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.todoItem span{
+   text-align: center;
+   margin-right: 10px;
+   width: 70%;
+   overflow: hidden;
+}
+.todoItem.checked{
+    background-color: aquamarine;
+}
+input[type="checkbox"]{
+    accent-color: purple;
+}
+button{
+    margin: 5px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
